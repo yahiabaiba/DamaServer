@@ -1,0 +1,25 @@
+{
+   "type": "mysql",
+   "host": "108.167.157.201",
+   "port": 3306,
+   "username": "mj3v7d5w_dama",
+   "password": "Mauritanie@1960",
+   "database": "mj3v7d5w_dama",
+   "migrationsTableName": "migrations",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
